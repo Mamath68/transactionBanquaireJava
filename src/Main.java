@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    public static void triABulle(int @org.jetbrains.annotations.NotNull [] tableau) {
+    public static void triABulle(int[] tableau) {
         for (int i = tableau.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (tableau[j + 1] < tableau[j]) {
