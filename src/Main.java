@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] tableau = {6, 5, 3, 8, 1, 15 , 4, 9, 7, 11, 2, 10};
+        int[] tableau = {6, 5, 3, 8, 1, 15, 4, 9, 7, 11, 2, 10};
 
         triABulle(tableau);
 
