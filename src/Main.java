@@ -18,9 +18,9 @@ public class Main {
         for (int i = tableau.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (tableau[j + 1] < tableau[j]) {
-                    int temp = tableau[j + 1];
+                    int array = tableau[j + 1];
                     tableau[j + 1] = tableau[j];
-                    tableau[j] = temp;
+                    tableau[j] = array;
                 }
             }
         }
